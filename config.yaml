@@ -1,0 +1,31 @@
+# config.yaml
+
+# default date range
+start_date: "2022-01-01"
+
+# macro tickers mapping used by the script
+macros:
+  DXY: "DX-Y.NYB"
+  10Y: "^TNX"
+  VIX: "^VIX"
+  Gold: "GC=F"
+
+# indicator windows / lengths
+rsi_len: 14
+vol_sma: 20
+ema_short: 50
+ema_long: 200
+bb_window: 20
+atr_len: 14
+
+# Google Trends lookback (for the 90th-percentile threshold)
+trend_lookback: 30
+
+# Fear & Greed cutoff (0–100 index, treat < this as bullish)
+fng_threshold: 30
+
+# How many of your sub-signals are needed before firing a buy
+score_thresh: 5
+
+# Backtest: hold for N days to compute the “future_return”
+backtest_horizon_days: 7

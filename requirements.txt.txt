@@ -1,0 +1,9 @@
+yfinance
+pandas
+numpy
+matplotlib
+pytrends
+requests
+pyyaml
+joblib
+streamlit
